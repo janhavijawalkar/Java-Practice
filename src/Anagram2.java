@@ -5,7 +5,7 @@ public class Anagram2 {
         //covert into charArr , toCharArray, Arrays.sort, Arrays.equals
         String str1="listen";
         String str2="silent";
-        if(str1.length()!=str2.length()){
+        if(str1.length() != str2.length()){
             System.out.println("Not anagram");
             return;
         }
